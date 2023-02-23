@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Container;
+namespace Sruuua\DependencyInjection;
 
 use Symfony\Component\Yaml\Yaml;
 

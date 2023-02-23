@@ -13,5 +13,7 @@
             "email": "pierre27.ambroise@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/yaml": "^6.2"
+    }
 }
