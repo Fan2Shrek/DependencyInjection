@@ -1,0 +1,17 @@
+{
+    "name": "sruuua/dependency-injection",
+    "description": "Easy dependency injection for builing dependency",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Sruuua\\DependencyInjection\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fan2Shrek",
+            "email": "pierre27.ambroise@gmail.com"
+        }
+    ],
+    "require": {}
+}
