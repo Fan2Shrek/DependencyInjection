@@ -18,6 +18,19 @@ class Container
     }
 
     /**
+     * Add a instance in the container
+     * 
+     * @param string $name The name of instance
+     * @param object $instance The instancied object
+     * 
+     * @return void
+     */
+    public function set(string $name, object $instance): void
+    {
+        $this->elements['name'] = $instance;
+    }
+
+    /**
      * Register an class on the container
      * 
      * @param string $name the name of the dependency
