@@ -4,20 +4,19 @@ Personal Dependency Injection
 
 ## How to use it
 
-Register dependency is 
+Register dependency is
 
 ```
-#
+# config/service.yml
 
-name:
-    class: App\Folder\Name
-    func:
-        - myFunc:
-            - ['myArg']
+#File that are not required
+excludes:
+  - '../src/Kernel.php'
+  - '../src/Entity/'
 
-# If otherName needs name
-otherName:
-    class: App\OtherFolder\OtherName
-    arg:
-        - @otherName
+services:
+    router:
+        class: Sruuua\Routing\RouterBuilder
+        arg:
+        - '@container'
 ```
